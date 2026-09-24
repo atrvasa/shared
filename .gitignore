@@ -1,0 +1,63 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/build/
+/dist/
+
+# Go build/test artifacts
+coverage.out
+coverage.html
+*.coverprofile
+*.prof
+*.pprof
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency/vendor cache
+/vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Air live reload
+.air.toml
+tmp/
+
+# Database/local storage
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated files
+*.gen.go
